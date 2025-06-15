@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あやaya - 日本旅遊生活專家 | @hi_japan_</title>
+    <meta name="description" content="跟著Aya探索日本！台灣女孩的京都生活、日本留學經驗分享、美食推薦與旅遊攻略">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'purple-accent': '#8b5cf6',
+                        'purple-light': '#a78bfa',
+                        'purple-bg': '#f3f4f6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+        }
+        .card-hover {
+            transition: all 0.2s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- Header Navigation -->
+    <nav class="bg-purple-100 px-4 py-3">
+        <div class="max-w-sm mx-auto flex justify-between items-center text-sm">
+            <a href="#home" class="font-medium text-purple-700 hover:text-purple-800">首頁</a>
+            <a href="#resources" class="text-purple-600 hover:text-purple-800">推薦好物</a>
+            <a href="#partnership" class="text-purple-600 hover:text-purple-800">合作聲明</a>
+        </div>
+    </nav>
+
+    <!-- Subscribe Bar -->
+    <div class="bg-purple-50 px-4 py-2 border-b">
+        <div class="max-w-sm mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2 text-sm text-purple-700">
+                <i class="fas fa-bell"></i>
+                <span>訂閱</span>
+            </div>
+            <i class="fas fa-share text-purple-600"></i>
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <div id="home" class="max-w-sm mx-auto px-6 py-8 text-center">
+        <!-- Profile Image -->
+        <div class="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden bg-purple-100">
+            <div class="w-full h-full flex items-center justify-center text-3xl">🌸</div>
+        </div>
+
+        <!-- Name & Title -->
+        <h1 class="text-2xl font-bold text-gray-800 mb-2 flex items-center justify-center">
+            あやaya 日本旅遊生活
+            <span class="ml-2 text-purple-500">✨</span>
+        </h1>
+        
+        <p class="text-gray-600 mb-6">台灣女孩在京都，陪你聰明旅行日本 ⚡</p>
+
+        <!-- Social Media Icons -->
+        <div class="flex justify-center space-x-6 mb-8">
+            <a href="mailto:ayajoy2002@gmail.com" class="text-gray-600 hover:text-purple-500 text-xl">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://tiktok.com/@hi_japan_" target="_blank" class="text-gray-600 hover:text-purple-500 text-xl">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://instagram.com/hi_japan_" target="_blank" class="text-gray-600 hover:text-purple-500 text-xl">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/@hi_japan_" target="_blank" class="text-gray-600 hover:text-purple-500 text-xl">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Travel Resources Section -->
+    <div id="resources" class="max-w-sm mx-auto px-6">
+        <h2 class="text-lg font-semibold text-gray-800 mb-6 text-center">日本旅遊資源</h2>
+        
+        <div class="space-y-4">
+            <!-- Hotel/Accommodation -->
+            <div class="card-hover bg-purple-500 rounded-2xl p-4 text-white relative overflow-hidden">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center text-xl">
+                        🏨
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-semibold mb-1">住宿推薦</h3>
+                        <p class="text-sm text-purple-100">我在日本住過的優質飯店</p>
+                    </div>
+                </div>
+                <div class="absolute -right-4 -bottom-2 text-4xl opacity-30">🌸</div>
+            </div>
+
+            <!-- Travel Essentials -->
+            <div class="card-hover bg-purple-400 rounded-2xl p-4 text-white relative overflow-hidden">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center text-xl">
+                        🎒
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-semibold mb-1">旅行必備好物</h3>
+                        <p class="text-sm text-purple-100">日本旅遊實用物品清單</p>
+                    </div>
+                </div>
+                <div class="absolute -right-4 -bottom-2 text-4xl opacity-30">✈️</div>
+            </div>
+
+            <!-- Trip.com Partnership -->
+            <div class="card-hover bg-blue-500 rounded-2xl p-4 text-white relative overflow-hidden">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center text-xl">
+                        ✈️
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-semibold mb-1">Trip.com 專屬優惠</h3>
+                        <p class="text-sm text-blue-100">機票住宿門票優惠預訂</p>
+                    </div>
+                </div>
+                <div class="absolute -right-4 -bottom-2 text-4xl opacity-30">💰</div>
+                <a href="https://www.trip.com/t/hijapan" target="_blank" class="absolute inset-0"></a>
+            </div>
+
+            <!-- Financial Tools -->
+            <div class="card-hover bg-green-500 rounded-2xl p-4 text-white relative overflow-hidden">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center text-xl">
+                        💳
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-semibold mb-1">海外理財工具</h3>
+                        <p class="text-sm text-green-100">信用卡、保險、上網卡推薦</p>
+                    </div>
+                </div>
+                <div class="absolute -right-4 -bottom-2 text-4xl opacity-30">💎</div>
+            </div>
+
+            <!-- Food & Culture -->
+            <div class="card-hover bg-orange-500 rounded-2xl p-4 text-white relative overflow-hidden">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center text-xl">
+                        🍜
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-semibold mb-1">美食文化體驗</h3>
+                        <p class="text-sm text-orange-100">京都在地美食與文化分享</p>
+                    </div>
+                </div>
+                <div class="absolute -right-4 -bottom-2 text-4xl opacity-30">🥢</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo Code Section -->
+    <div class="max-w-sm mx-auto px-6 py-8">
+        <div class="bg-gradient-to-r from-purple-100 to-blue-100 rounded-2xl p-6 text-center">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">專屬優惠碼</h3>
+            <div class="bg-white rounded-lg p-3 mb-4">
+                <code class="text-purple-600 font-mono font-bold text-lg">AYAJAPAN2025</code>
+            </div>
+            <p class="text-sm text-gray-600 mb-4">在 Trip.com 使用此優惠碼享受額外折扣</p>
+            <a href="https://www.trip.com/t/hijapan" target="_blank" class="inline-block bg-purple-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-purple-600 transition-colors">
+                立即使用
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="max-w-sm mx-auto px-6 py-4">
+        <div class="text-center">
+            <p class="text-sm text-gray-600 mb-2">業務合作聯絡</p>
+            <a href="mailto:ayajoy2002@gmail.com" class="text-purple-600 font-medium">
+                ayajoy2002@gmail.com
+            </a>
+        </div>
+    </div>
+
+    <!-- Partnership Disclaimer -->
+    <div id="partnership" class="max-w-sm mx-auto px-6 py-6">
+        <div class="bg-gray-50 rounded-lg p-4">
+            <h3 class="font-semibold text-gray-800 mb-3">🤝 合作聲明</h3>
+            <div class="text-sm text-gray-600 space-y-2">
+                <p>• 本頁面包含合作推廣連結，透過連結購買我可能獲得佣金</p>
+                <p>• 所有推薦商品皆為 Aya 親自使用過的真實體驗分享</p>
+                <p>• 合作夥伴：Trip.com、各大信用卡銀行、保險公司等</p>
+                <p>• 業務合作歡迎來信：ayajoy2002@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 mt-4 py-6">
+        <div class="max-w-sm mx-auto px-6 text-center">
+            <p class="text-xs text-gray-500">© 2025 あやaya (@hi_japan_)</p>
+            <p class="text-xs text-gray-500 mt-1">本頁面包含合作推廣連結 • 台灣女孩的京都生活分享</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Analytics for affiliate links
+        document.querySelectorAll('a[href*="trip.com"]').forEach(link => {
+            link.addEventListener('click', () => {
+                console.log('Trip.com affiliate link clicked');
+            });
+        });
+
+        // Track social media clicks
+        document.querySelectorAll('a[href*="tiktok"], a[href*="youtube"], a[href*="instagram"]').forEach(link => {
+            link.addEventListener('click', () => {
+                console.log('Social media link clicked:', link.href);
+            });
+        });
+    </script>
+</body>
+</html>
